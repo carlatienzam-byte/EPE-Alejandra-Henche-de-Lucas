@@ -1,4 +1,3 @@
-
 <html>
   <head>
     <meta charset="UTF-8">
@@ -48,6 +47,17 @@
 <a-box position="2 3 4" rotation="90 90 90" height="1.5" color="black" event-set__enter="_event: mouseenter; _target: #boxText; visible: true" event-set__leave="_event: mouseleave; _target: #boxText; visible: false">
  <a-text id="boxText" value="Estatua del dios supremo" align="center" color="BLACK" visible="true" rotation="0 90 -90" position="1.5 -0.8 0" geometry="primitive: plane; width: 3" material="white"
  ></a-text></a-box>
+	   
+	   
+	   <a-link id="miEnlace1" href="https://carlatienzam-byte.github.io/EPE-IESCarmen-de-Burgos-Segui/" title="Backrooms" position="-6.29221 1.88346 4.77171" scale="0.5 0.5 0.5" geometry="primitive: circle; segments: 64" material="shader: portal; side: double; previewDistance: 7.5"><a-entity text="align: center; color: white; font: kelsonsans; value: Backrooms; width: 5" position="0 1.5 0" rotation="0 180 0"></a-entity></a-link>
+	
+
     </a-scene>
+	  <script>
+document.querySelector('#miEnlace1').addEventListener('click', function () {
+    window.location.href ='https://carlatienzam-byte.github.io/EPE-IESCarmen-de-Burgos-Segui/';
+});
+		
+		</script>	
   </body>
 </html>
